@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
   <!-- Seebo Maxx-->
-  <addons>
+<addons>
 <addon id="plugin.video.seedocs"
        name="SeeDocs"
        version="0.8.2"
