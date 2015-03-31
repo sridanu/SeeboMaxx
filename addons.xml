@@ -1,18 +1,24 @@
 <?xml version="1.0" ?>
   <!-- Seebo Maxx-->
   <addons>
-  <addon id="plugin.video.seeTube" name="See Tube" provider-name="Seebo Network" version="0.0.1">
-    <requires>
-      <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-      <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <platform>all</platform>
-      <minversion>31542</minversion>
-      <summary>Youtube for Seebo</summary>
-      <description>See Tube</description>
-     </extension>
-  </addon>
-  </addons>
+<addon id="plugin.video.seedocs"
+       name="SeeDocs"
+       version="0.8.2"
+       provider-name="SeeLiveTV">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.simple.downloader" version="0.9.1"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SeeDocs</summary>
+    <description>Many kinds of documentaries can be found here</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
