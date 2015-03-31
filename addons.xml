@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><addons>
+  <!-- Seebo Maxx-->
+  <addons>
+  <addon id="plugin.video.seeTube" name="See Tube" provider-name="Seebo Network" version="0.0.1">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension library="addon.py" point="xbmc.python.pluginsource">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <minversion>31542</minversion>
+      <summary>Youtube for Seebo</summary>
+      <description>See Tube</description>
+     </extension>
+  </addon>
+  </addons
