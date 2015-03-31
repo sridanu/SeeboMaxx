@@ -16,7 +16,9 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>SeeDocs</summary>
+    <summary>
+      SeeDocs
+    </summary>
     <description>Many kinds of documentaries can be found here</description>
     <platform>all</platform>
   </extension>
