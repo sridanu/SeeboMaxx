@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><addons>
+<?xml version="1.0" ?>
   <!-- Seebo Maxx-->
   <addons>
   <addon id="plugin.video.seeTube" name="See Tube" provider-name="Seebo Network" version="0.0.1">
